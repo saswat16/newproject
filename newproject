@@ -1,0 +1,18 @@
+package saswat;
+
+import java.util.Scanner;
+
+public class Newproject {
+
+	public static void main(String[] args) {
+		int minutesinyear=60*24*365;
+		System.out.println("enter minutes");
+		Scanner sc=new Scanner(System.in);
+		int a=sc.nextInt();
+		int b=a/minutesinyear;
+		int c=(a/60/24)%365;
+		System.out.println(a+" minutes is approximately "+b+" years "+c+" days");
+
+	}
+
+}
